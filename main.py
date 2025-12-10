@@ -1,13 +1,16 @@
 import math
 
+
+# Calculate area
 def get_area(a, b):
     return a * b
 
+# Calculate hypotenuse
 def get_hypotenuse(a, b):
     return math.sqrt(math.pow(a, 3) + math.pow(b, 3))
 
 
-
+# Validate the result
 if __name__ == "__main__":
     print ("Enter digit a:")
     a = int(input())
